@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>App Lista de SuperMercado</title>
+<link rel="stylesheet" href="mercado.css">
+</head>
+<body>
+
+    <header>
+        <div class="interface">
+            <img id="imgLogo" src="35649542-removebg-preview.png" style="width:250px; height:120px;">
+            <nav>
+                <ul>
+                    <a href=""><li>Home</li></a>
+                    <a href=""><li>Produtos cadastrados</li></a>
+                    <a href=""><li>Produtos em falta</li></a>
+                    <a href=""><li>Hortifrute</li></a>
+                    <a href=""><li>Açougue</li></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="interface">
+    <h2 id="tituloP">App Lista de SuperMercado</h2>
+    <div class="lista-cadastro">
+        <input type="text" placeholder="nome do produto..."
+        name="nome_produto" />
+        <input type="number" name="price" step="0.01"
+        title="This should be a number with up to 2 decimal places.">
+
+
+        <input class="botaoCadastrar" type="submit" name="acao" value="Cadastar" />
+    </div>
+
+    <div class="lista-produtos">
+            
+
+    </div>
+
+    <div class="soma-produto">
+        <h1>Total: R$0</h1>
+    </div>
+
+    <button class="limpar" name="limpar">Limpar</button>
+
+    </div>
+
+    <footer>
+        <div class="interface">
+            <nav>
+                <ul>
+                    <li><a href=""><h4>Termos de Serviço</h4></a></li>
+                    <li><a href=""><h4>Termos e Condições Gerais</h4></a></li>
+                    <li><a href=""><h4>Política de Privacidade</h4></a></li>
+                    <li><a href=""><h4>Política de Cookies</h4></a></li>
+                    <li><a href=""><h4>Nota Legal</h4></a></li>
+                    <div class="botaoImg">
+                        <a href="https://www.facebook.com/?locale=pt_BR" target="_blank"><button><img class="imgRedesSociais" src="icons8-facebook-novo-50.png"></button></a>
+                        <a href="" target="_blank"><button href=""><img class="imgRedesSociais" src="icons8-instagram-50.png"></button></a>
+                        <a href="" target="_blank"><button><img class="imgRedesSociais" src="icons8-reproduzir-youtube-50 (1).png"></button></a>
+                        <a href="" target="_blank"><button href=""><img class="imgRedesSociais" src="icons8-whatsapp-64 (1).png"></button></a>
+                        <a href="" target="_blank"><button href=""><img class="imgRedesSociais" src="icons8-twitter-50.png"></button></a>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="supermercado.js"></script>
+</body>
+</html>
